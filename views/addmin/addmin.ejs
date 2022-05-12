@@ -1,0 +1,26 @@
+<%- include ('compoanent/header') %>
+
+  <header class="header">
+    <button class="menu-icon-btn" data-menu-icon-btn>
+      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="menu-icon">
+        <g>
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+        </g>
+      </svg>
+    </button>
+  </header>
+
+  <div class="container-flud">
+    <% let mainForm=10 %>
+    <%- include ('compoanent/sidebar') %>
+    <main class="content">
+      <div>
+        <h1>
+          <%= mainForm %>
+        </h1>
+
+      </div>
+
+    </main>
+  </div>
+  <%- include ('compoanent/footer') %>

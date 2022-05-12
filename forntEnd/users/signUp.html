@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- css Stayle -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>{titel}</title>
+  </head>
+  <body>
+    <div class="navigation sticky-top bg-primary bg-opacity-25">
+      <nav class="navbar navbar-expand-lg navbar-light container">
+        <div class="container-fluid mx-1">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="navbar ">
+                  <li ><a class=" nav-item" href="#">cat1</a>
+                  <ul >
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                  </ul></li>
+                  <li><a class="dropdown-item" href="#">cat2</a>
+                  <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                  </ul>
+                </li>
+                  <li><a class="dropdown-item" href="#">cat3</a>
+                  <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                  </ul></li>
+                </ul></ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+
+              <!-- <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li> -->
+            </ul>
+          
+            <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <form
+        class="row g-3 my-3"
+        action=""
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <div class="col-md-12 form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+          />
+          <label for="name">Name</label>
+        </div>
+        <div class="col-md-12 form-floating mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Enter your email"
+          />
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="col-md-12 form-floating mb-3">
+          <input
+            type="password"
+            class="form-control"
+            id="inputPassword4"
+            placeholder="Enter your password"
+          />
+          <label for="inputPassword4">Password</label>
+        </div>
+      
+        <div class="col-md-12 form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="fone"
+            placeholder="name@example.com"
+          />
+          <label for="fone">Fone</label>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Remember Me
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="container text-center">
+        <p class="led">this footer</p>
+      </div>
+    </footer>
+    <!-- BootStrap Java Script -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

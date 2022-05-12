@@ -1,0 +1,62 @@
+<%- include ('compoanent/header') %> <%- include ('compoanent/navbar') %>
+<div class="container">
+  <form
+    class="row g-3 my-3"
+    action=""
+    method="post"
+    enctype="multipart/form-data"
+  >
+    <div class="col-md-12 form-floating mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Enter your name"
+        name="name"
+      />
+      <label for="name">Name</label>
+    </div>
+    <div class="col-md-12 form-floating mb-3">
+      <input
+        type="email"
+        class="form-control"
+        id="floatingInput"
+        placeholder="Enter your email"
+        name="email"
+      />
+      <label for="floatingInput">Email</label>
+    </div>
+    <div class="col-md-12 form-floating mb-3">
+      <input
+        type="password"
+        class="form-control"
+        id="inputPassword4"
+        placeholder="Enter your password"
+        name="password"
+      />
+      <label for="inputPassword4">Password</label>
+    </div>
+
+    <div class="col-md-12 form-floating mb-3">
+      <input
+        type="text"
+        class="form-control"
+        id="fone"
+        placeholder="Enter your fone"
+        name="fone"
+      />
+      <label for="fone">Fone</label>
+    </div>
+
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck" />
+        <label class="form-check-label" for="gridCheck"> Remember Me </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+</div>
+<%- include ('compoanent/footer') %>
